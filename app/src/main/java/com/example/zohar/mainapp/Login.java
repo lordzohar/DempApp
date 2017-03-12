@@ -36,7 +36,7 @@ public class Login extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        if(uname.getText().toString().equalsIgnoreCase("zohar") && password.getText().toString().equalsIgnoreCase("zohar"))
+                        if(uname.getText().toString().equalsIgnoreCase("admin") && password.getText().toString().equalsIgnoreCase("admin"))
                         {
                             Toast.makeText(Login.this, "You are Coreect", Toast.LENGTH_SHORT).show();
                         }
